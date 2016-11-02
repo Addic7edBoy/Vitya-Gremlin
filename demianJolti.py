@@ -39,7 +39,8 @@ if name in access_list:
     x = raw_input()
     if x == ('start'):
         import webbrowser
-        webbrowser.open('vk.com/club109913725')
+        b = webbrowser.get('safari')
+        b.open('vk.com')
 else:
     cmd5 = 'color 04'
     import subprocess
