@@ -1,6 +1,6 @@
 """abdul kadirov."""
 print ('Enter password')
-pas = raw_input()
+pas = input()
 print("Enter user's name")
 name = raw_input()
 access_list = ['MAX', 'LEXX', 'GOJA', 'VLAD', 'EGOR']
