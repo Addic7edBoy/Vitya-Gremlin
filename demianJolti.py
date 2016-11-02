@@ -1,8 +1,8 @@
 """abdul kadirov."""
 print ('Enter password')
-pas = input()
+pas = raw_input()
 print("Enter user's name")
-name = input()
+name = raw_input()
 access_list = ['MAX', 'LEXX', 'GOJA', 'VLAD', 'EGOR']
 if name in access_list:
     cmd = 'color 02'
@@ -36,7 +36,7 @@ if name in access_list:
     print('000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     print('===================================ACCESS GRANTED======================================')
     print('Type "start" to join GBSQUAD')
-    x = input()
+    x = raw_input()
     if x == ('start'):
         import webbrowser
         webbrowser.open('vk.com/club109913725')
@@ -50,4 +50,3 @@ else:
     import subprocess
     PIPE = subprocess.PIPE
     p6 = subprocess.Popen(cmd6, shell=True)
-input()
