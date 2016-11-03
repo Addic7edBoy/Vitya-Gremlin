@@ -2,7 +2,7 @@
 print ('Enter password')
 pas = input()
 print("Enter user's name")
-name = raw_input()
+name = input()
 access_list = ['MAX', 'LEXX', 'GOJA', 'VLAD', 'EGOR']
 if name in access_list:
     cmd = 'color 02'
@@ -36,18 +36,18 @@ if name in access_list:
     print('000000000000000000000000000000000000000000000000000000000000000000000000000000000000000')
     print('===================================ACCESS GRANTED======================================')
     print('Type "start" to join GBSQUAD')
-    x = raw_input()
+    x = input()
     if x == ('start'):
         import webbrowser
-        b = webbrowser.get('safari')
-        b.open('vk.com')
+        b = webbrowser.get('chrome')
+        b.open('https://vk.com/club109913725')
 else:
     cmd5 = 'color 04'
     import subprocess
     PIPE = subprocess.PIPE
     p5 = subprocess.Popen(cmd5, shell=True)
     print('ACCESS DENIED ' * 404)
-    cmd6 = 'shutdown /s'
+    cmd6 = 'shutdown /r'
     import subprocess
     PIPE = subprocess.PIPE
     p6 = subprocess.Popen(cmd6, shell=True)
