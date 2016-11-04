@@ -428,8 +428,7 @@ if name in access_list:
     x = input()
     if x == ('start'):
         import webbrowser
-        b = webbrowser.get('Google Chrome')
-        b.open('https://vk.com/club109913725')
+        webbrowser.open('https://vk.com/club109913725')
 else:
     cmd5 = 'color 04'
     import subprocess
