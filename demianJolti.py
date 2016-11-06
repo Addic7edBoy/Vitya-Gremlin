@@ -18,21 +18,21 @@ if name in access_list:
     import time
     time.sleep(3)
     from time import sleep
-    line1 = '0'*90
-    line2 = '0'*90
-    line3 = '0'*23
+    line1 = '0'*118
+    line2 = '0'*118
+    line3 = '0'*40
     line3_1 = '1'*15
     line3_2 = '0'*6
     line3_3 = '1'*16
-    line3_4 = '0'*30
-    line4 = '0'*21
+    line3_4 = '0'*41
+    line4 = '0'*38
     line4_1 = '1'*17
     line4_2 = '0'*6
     line4_3 = '1'*3
     line4_4 = '0'*12
     line4_5 = '1'*3
-    line4_6 = '0'*28
-    line5 = '0'*20
+    line4_6 = '0'*39
+    line5 = '0'*37
     line5_1 = '1'*4
     line5_2 = '0'*11
     line5_3 = '1'*3
@@ -40,8 +40,8 @@ if name in access_list:
     line5_5 = '1'*3
     line5_6 = '0'*12
     line5_7 = '1'*3
-    line5_8 = '0'*28
-    line6 = '0'*19
+    line5_8 = '0'*39
+    line6 = '0'*36
     line6_1 = '1'*4
     line6_2 = '0'*12
     line6_3 = '1'*3
@@ -49,25 +49,25 @@ if name in access_list:
     line6_5 = '1'*3
     line6_6 = '0'*12
     line6_7 = '1'*3
-    line6_8 = '0'*28
-    line7 = '0'*19
+    line6_8 = '0'*39
+    line7 = '0'*36
     line7_1 = '1'*4
     line7_2 = '0'*21
     line7_3 = '1'*3
     line7_4 = '0'*12
     line7_5 = '1'*3
-    line7_6 = '0'*28
-    line8 = '0'*19
+    line7_6 = '0'*39
+    line8 = '0'*36
     line8_1 ='1'*4
     line8_2 = '0'*21
     line8_3 = '1'*16
-    line8_4 = '0'*30
-    line9 = '0'*19
+    line8_4 = '0'*41
+    line9 = '0'*36
     line9_1 ='1'*4
     line9_2 = '0'*21
     line9_3 = '1'*15
-    line9_4 = '0'*31
-    line10 = '0'*19
+    line9_4 = '0'*42
+    line10 = '0'*36
     line10_1 ='1'*4
     line10_2 = '0'*5
     line10_3 = '1'*10
@@ -75,8 +75,8 @@ if name in access_list:
     line10_5 = '1'*3
     line10_6 = '0'*12
     line10_7 = '1'*3
-    line10_8 = '0'*28
-    line11 = '0'*19
+    line10_8 = '0'*39
+    line11 = '0'*36
     line11_1 ='1'*4
     line11_2 = '0'*5
     line11_3 = '1'*10
@@ -84,8 +84,8 @@ if name in access_list:
     line11_5 = '1'*3
     line11_6 = '0'*12
     line11_7 = '1'*3
-    line11_8 = '0'*28
-    line12 = '0'*19
+    line11_8 = '0'*39
+    line12 = '0'*36
     line12_1 ='1'*4
     line12_2 = '0'*12
     line12_3 = '1'*3
@@ -93,8 +93,8 @@ if name in access_list:
     line12_5 = '1'*3
     line12_6 = '0'*12
     line12_7 = '1'*3
-    line12_8 = '0'*28
-    line13 = '0'*20
+    line12_8 = '0'*39
+    line13 = '0'*37
     line13_1 ='1'*4
     line13_2 = '0'*11
     line13_3 = '1'*3
@@ -102,19 +102,19 @@ if name in access_list:
     line13_5 = '1'*3
     line13_6 = '0'*12
     line13_7 = '1'*3
-    line13_8 = '0'*28
-    line14 = '0'*21
+    line13_8 = '0'*39
+    line14 = '0'*38
     line14_1 = '1'*17
     line14_2 = '0'*6
     line14_3 = '1'*17
-    line14_4 = '0'*29
-    line15 = '0'*23
+    line14_4 = '0'*40
+    line15 = '0'*40
     line15_1 = '1'*15
     line15_2 = '0'*6
     line15_3 = '1'*15
-    line15_4 = '0'*31
-    line16 = '0'*90
-    line17 = '0'*90
+    line15_4 = '0'*42
+    line16 = '0'*118
+    line17 = '0'*118
     for i in range(len(line1)):
         sleep(.01)
         print (line1[i],end='',flush=True)
@@ -423,7 +423,7 @@ if name in access_list:
         sleep(.01)
         print(line17[i], end='',flush=True)
     print('0')
-    print('===================================ACCESS GRANTED======================================')
+    print('='*52,'ACCESS GRANTED','='*52)
     print('Type "start" to join GBSQUAD')
     x = input()
     if x == ('start'):
