@@ -1,5 +1,7 @@
 """abdul kadirov."""
-print ('Enter password')
+print ("Greetings, stranger. This programm's main goal is to praise GB")
+print("So if you want to see what's inside you have to show us your devotion")
+print('Enter password')
 pas = input()
 print("Enter user's name")
 name = input()
@@ -90,86 +92,86 @@ if name in access_list:
     line12_2 = '0'*12
     line12_3 = '1'*3
     line12_4 = '0'*6
-    line12_5 = '1'*3
-    line12_6 = '0'*12
-    line12_7 = '1'*3
-    line12_8 = '0'*39
-    line13 = '0'*37
-    line13_1 ='1'*4
-    line13_2 = '0'*11
-    line13_3 = '1'*3
-    line13_4 = '0'*6
-    line13_5 = '1'*3
-    line13_6 = '0'*12
-    line13_7 = '1'*3
-    line13_8 = '0'*39
-    line14 = '0'*38
-    line14_1 = '1'*17
-    line14_2 = '0'*6
-    line14_3 = '1'*17
-    line14_4 = '0'*40
-    line15 = '0'*40
-    line15_1 = '1'*15
-    line15_2 = '0'*6
-    line15_3 = '1'*15
-    line15_4 = '0'*42
-    line16 = '0'*118
-    line17 = '0'*118
+    line12_5 = '1' * 3
+    line12_6 = '0' * 12
+    line12_7 = '1' * 3
+    line12_8 = '0' * 39
+    line13 = '0' * 37
+    line13_1 = '1' * 4
+    line13_2 = '0' * 11
+    line13_3 = '1' * 3
+    line13_4 = '0' * 6
+    line13_5 = '1' * 3
+    line13_6 = '0' * 12
+    line13_7 = '1' * 3
+    line13_8 = '0' * 39
+    line14 = '0' * 38
+    line14_1 = '1' * 17
+    line14_2 = '0' * 6
+    line14_3 = '1' * 17
+    line14_4 = '0' * 40
+    line15 = '0' * 40
+    line15_1 = '1' * 15
+    line15_2 = '0' * 6
+    line15_3 = '1' * 15
+    line15_4 = '0' * 42
+    line16 = '0' * 118
+    line17 = '0' * 118
     for i in range(len(line1)):
         sleep(.01)
-        print (line1[i],end='',flush=True)
+        print(line1[i], end='', flush=True)
     print('0')
     for i in range(len(line2)):
         sleep(.01)
-        print(line2[i], end='',flush=True)
+        print(line2[i], end='', flush=True)
     print('0')
     for i in range(len(line3)):
         sleep(.01)
-        print(line3[i], end='',flush=True)
+        print(line3[i], end='', flush=True)
     for i in range(len(line3_1)):
         sleep(.01)
         print(line3_1[i], end='', flush=True)
     for i in range(len(line3_2)):
         sleep(.01)
-        print(line3_2[i], end='',flush=True)
+        print(line3_2[i], end='', flush=True)
     for i in range(len(line3_3)):
         sleep(.01)
-        print(line3_3[i], end='',flush=True)
+        print(line3_3[i], end='', flush=True)
     for i in range(len(line3_4)):
         sleep(.01)
-        print(line3_4[i], end='',flush=True)
+        print(line3_4[i], end='', flush=True)
     print('0')
     for i in range(len(line4)):
         sleep(.01)
-        print(line4[i], end='',flush=True)
+        print(line4[i], end='', flush=True)
     for i in range(len(line4_1)):
         sleep(.01)
-        print(line4_1[i], end='',flush=True)
+        print(line4_1[i], end='', flush=True)
     for i in range(len(line4_2)):
         sleep(.01)
-        print(line4_2[i], end='',flush=True)
+        print(line4_2[i], end='', flush=True)
     for i in range(len(line4_3)):
         sleep(.01)
-        print(line4_3[i], end='',flush=True)
+        print(line4_3[i], end='', flush=True)
     for i in range(len(line4_4)):
         sleep(.01)
-        print(line4_4[i], end='',flush=True)
+        print(line4_4[i], end='', flush=True)
     for i in range(len(line4_5)):
         sleep(.01)
-        print(line4_5[i], end='',flush=True)
+        print(line4_5[i], end='', flush=True)
     for i in range(len(line4_6)):
         sleep(.01)
-        print(line4_6[i], end='',flush=True)
+        print(line4_6[i], end='', flush=True)
     print('0')
     for i in range(len(line5)):
         sleep(.01)
-        print(line5[i], end='',flush=True)
+        print(line5[i], end='', flush=True)
     for i in range(len(line5_1)):
         sleep(.01)
-        print(line5_1[i], end='',flush=True)
+        print(line5_1[i], end='', flush=True)
     for i in range(len(line5_2)):
         sleep(.01)
-        print(line5_2[i], end='',flush=True)
+        print(line5_2[i], end='', flush=True)
     for i in range(len(line5_3)):
         sleep(.01)
         print(line5_3[i], end='',flush=True)
@@ -423,7 +425,7 @@ if name in access_list:
         sleep(.01)
         print(line17[i], end='',flush=True)
     print('0')
-    print('='*52,'ACCESS GRANTED','='*52)
+    print('='*52,'ACCESS GRANTED', '='*52)
     print('Type "start" to join GBSQUAD')
     x = input()
     if x == ('start'):
@@ -438,7 +440,7 @@ else:
     inf = 'ACCESS DENIED '*404
     for i in range(len(inf)):
         sleep(.06)
-        print(inf[i],end='',flush = True)
+        print(inf[i], end='', flush=True)
     cmd6 = 'shutdown /r'
     import subprocess
     PIPE = subprocess.PIPE
