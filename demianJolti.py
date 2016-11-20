@@ -1,5 +1,11 @@
 """abdul kadirov."""
-print ("Greetings, stranger. This programm's main goal is to praise GB")
+
+import subprocess
+import webbrowser
+from time import sleep
+
+
+print("Greetings, stranger. This programm's main goal is to praise GB")
 print("So if you want to see what's inside you have to show us your devotion")
 print('Enter password')
 pas = input()
@@ -11,15 +17,13 @@ if name in access_list:
     cmd2 = 'tree'
     cmd3 = 'tree'
     cmd4 = 'tree'
-    import subprocess
+    
     PIPE = subprocess.PIPE
     p = subprocess.Popen(cmd, shell=True)
     p2 = subprocess.Popen(cmd2, shell=True)
     p3 = subprocess.Popen(cmd3, shell=True)
     p4 = subprocess.Popen(cmd4, shell=True)
-    import time
-    time.sleep(3)
-    from time import sleep
+    sleep(3)
     line1 = '0'*118
     line2 = '0'*118
     line3 = '0'*40
@@ -144,9 +148,9 @@ if name in access_list:
     for i in range(len(line4)):
         sleep(.01)
         print(line4[i], end='', flush=True)
-    for i in range(len(line4_1)):
+    for i in line4_1:
         sleep(.01)
-        print(line4_1[i], end='', flush=True)
+        print(i, end='', flush=True)
     for i in range(len(line4_2)):
         sleep(.01)
         print(line4_2[i], end='', flush=True)
@@ -429,19 +433,17 @@ if name in access_list:
     print('Type "start" to join GBSQUAD')
     x = input()
     if x == ('start'):
-        import webbrowser
         webbrowser.open('https://vk.com/club109913725')
 else:
     cmd5 = 'color 04'
-    import subprocess
+    
     PIPE = subprocess.PIPE
     p5 = subprocess.Popen(cmd5, shell=True)
-    from time import sleep
     inf = 'ACCESS DENIED '*404
     for i in range(len(inf)):
         sleep(.06)
         print(inf[i], end='', flush=True)
     cmd6 = 'shutdown /r'
-    import subprocess
+    
     PIPE = subprocess.PIPE
     p6 = subprocess.Popen(cmd6, shell=True)
