@@ -3,7 +3,7 @@ print ("Greetings, stranger. This programm's main goal is to praise GB")
 print("So if you want to see what's inside you have to show us your devotion")
 print('Enter password')
 pas = input()
-print("Enter the name of any GB member")
+print("Enter user's name")
 name = input()
 access_list = ['MAX', 'LEXX', 'GOJA', 'VLAD', 'EGOR']
 if name in access_list:
@@ -18,7 +18,7 @@ if name in access_list:
     p3 = subprocess.Popen(cmd3, shell=True)
     p4 = subprocess.Popen(cmd4, shell=True)
     import time
-    time.sleep(4)
+    time.sleep(3)
     from time import sleep
     line1 = '0'*118
     line2 = '0'*118
